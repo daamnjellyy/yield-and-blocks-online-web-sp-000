@@ -6,6 +6,8 @@ def hello_t(array)
   end
 array
 end
+puts "Hey! No block was given!"
+end
 
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) do |name|
